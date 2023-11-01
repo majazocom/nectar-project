@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+div.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color: #858585;
+    min-height: 2rem;
+}
+main {
+    max-width: 1000px;
+    background-color: hotpink;
+    min-height: 2rem;
+    min-width: 100px;
+    align-self: center;
+}
