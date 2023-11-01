@@ -23,7 +23,7 @@ main {
 
 .recipeCardsContainer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
     grid-template-areas: "greenItem greenItem greenItem"
         "purpleItem redItem blueItem"
