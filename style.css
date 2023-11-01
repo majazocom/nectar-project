@@ -8,6 +8,7 @@ div.wrapper {
 header {
     background-color: #858585;
     min-height: 2rem;
+    display: grid;
 }
 main {
     max-width: 1000px;
@@ -15,4 +16,20 @@ main {
     min-height: 2rem;
     min-width: 100px;
     align-self: center;
+}
+.recipeCard {
+    min-height: 6rem;
+    min-width: 6rem;
+}
+.greenBg {
+    background-color: green;
+}
+.purpleBg {
+    background-color: purple;
+}
+.redBg {
+    background-color: red;
+}
+.blueBg {
+    background-color: blue;
 }
