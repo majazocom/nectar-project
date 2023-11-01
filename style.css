@@ -1,15 +1,18 @@
 body {
     margin: 0;
 }
+
 div.wrapper {
     display: flex;
     flex-direction: column;
 }
+
 header {
     background-color: #858585;
     min-height: 2rem;
     display: grid;
 }
+
 main {
     max-width: 1000px;
     background-color: hotpink;
@@ -17,19 +20,36 @@ main {
     min-width: 100px;
     align-self: center;
 }
+
+.recipeCardsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    grid-template-areas: "greenItem greenItem greenItem"
+        "purpleItem redItem blueItem"
+}
+
 .recipeCard {
     min-height: 6rem;
     min-width: 6rem;
 }
+
 .greenBg {
     background-color: green;
+    grid-area: greenItem;
 }
+
 .purpleBg {
     background-color: purple;
+    grid-area: purpleItem;
 }
+
 .redBg {
     background-color: red;
+    grid-area: redItem;
 }
+
 .blueBg {
     background-color: blue;
+    grid-area: blueItem;
 }
